@@ -5,6 +5,7 @@ import HooksCakeComponent from './components/HooksCakeComponent';
 import IceCreamComponent from './components/IceCreamComponent';
 import NewCakeComponent from './components/NewCakeComponent';
 import ItemComponent from './components/ItemComponent';
+import UserComponent from './components/UserComponent';
 import {Provider} from 'react-redux'
 import store from './redux/store'
 
@@ -13,7 +14,9 @@ function App() {
     <Provider store={store}>
       <div className="App">
         <ItemComponent cake/>
+        <UserComponent/>
 
+ 
         {/* <CakeComponent/>
         <HooksCakeComponent/>
         <IceCreamComponent/>
